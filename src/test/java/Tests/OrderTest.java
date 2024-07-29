@@ -1,10 +1,12 @@
+package Tests;
+
+import Tests.base.BaseTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import pages.HeaderPageScooter;
 import pages.HomePageScooter;
 import pages.OrderPageScooter;
-import tests.base.BaseTest;
 
 @RunWith(Parameterized.class)
 public class OrderTest extends BaseTest {

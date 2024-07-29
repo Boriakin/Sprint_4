@@ -1,9 +1,11 @@
+package Tests;
+
+import Tests.base.BaseTest;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import pages.HomePageScooter;
-import tests.base.BaseTest;
 
 @RunWith(Parameterized.class)
 public class CheckQuestionsTest extends BaseTest {
