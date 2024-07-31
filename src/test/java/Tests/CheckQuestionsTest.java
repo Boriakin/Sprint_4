@@ -37,7 +37,7 @@ public class CheckQuestionsTest extends BaseTest {
     }
 
     @Test
-    public void CheckQuestionsTest() {
+    public void checkQuestionsTest() {
         driver.get(SCOOTER_HOME_URL);
 
         HomePageScooter objHomePage = new HomePageScooter(driver);
