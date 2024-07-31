@@ -37,14 +37,14 @@ public class CheckQuestionsTest extends BaseTest {
     }
 
     @Test
-    public void clickTest() {
-        driver.get("https://qa-scooter.praktikum-services.ru/");
+    public void CheckQuestionsTest() {
+        driver.get(SCOOTER_HOME_URL);
 
         HomePageScooter objHomePage = new HomePageScooter(driver);
 
         objHomePage.clickAccordionButton(index);
         String textAccordionPanel = objHomePage.getTextAccordionPanel();
-        Assert.assertEquals("Текст ответа не соответсвует ожидаемому.", textAccordionPanel, text);
+        Assert.assertEquals("Текст ответа не соответсвует ожидаемому.", text, textAccordionPanel);
     }
 
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest {
+    public static String SCOOTER_HOME_URL = "https://qa-scooter.praktikum-services.ru/";
     protected WebDriver driver;
 
     @Before

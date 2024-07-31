@@ -45,7 +45,7 @@ public class OrderTest extends BaseTest {
 
     @Test
     public void orderInHeader() {
-        driver.get("https://qa-scooter.praktikum-services.ru/");
+        driver.get(SCOOTER_HOME_URL);
 
         HomePageScooter objHomePage = new HomePageScooter(driver);
         HeaderPageScooter objHeaderPage = new HeaderPageScooter(driver);
@@ -63,7 +63,7 @@ public class OrderTest extends BaseTest {
 
     @Test
     public void orderHome() {
-        driver.get("https://qa-scooter.praktikum-services.ru/");
+        driver.get(SCOOTER_HOME_URL);
 
         HomePageScooter objHomePage = new HomePageScooter(driver);
         OrderPageScooter objOrderPage = new OrderPageScooter(driver);
